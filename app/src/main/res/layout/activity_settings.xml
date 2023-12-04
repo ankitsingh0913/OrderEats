@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/btn_background_1"
+    tools:context=".Settings">
+
+    <LinearLayout
+        android:id="@+id/settingTab"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_background_1"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tableRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/backBtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/arrow_back"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textColor="#090909"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#090909"
+        app:layout_constraintTop_toBottomOf="@id/settingTab" />
+
+    <ScrollView
+        android:id="@+id/scrollView6"
+        android:layout_width="match_parent"
+        android:layout_height="00dp"
+        android:background="#EAEBEC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableRow">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="General"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Account Settings"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Notification Preferences"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Location Settings"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Payment"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Payment Settings"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Order History"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Transactions and  Refunds"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Themes"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="App Theme"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Security and support"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Security and Privacy"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Preferences"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Help and Support"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginTop="1dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="2dp"
+                android:text="Account"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/logoutBtn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:drawableLeft="@drawable/logout_sign"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text=" Logout"
+                android:textColor="#040303"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/newSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:padding="15dp"
+                android:text="sign in with another Account"
+                android:textColor="#040303"
+                android:textSize="20sp"
+                />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

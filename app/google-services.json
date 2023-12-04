@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "258578139712",
+    "project_id": "ordereats-8443f",
+    "storage_bucket": "ordereats-8443f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:258578139712:android:9228edd5409c87f171eda5",
+        "android_client_info": {
+          "package_name": "com.xclone.ordereats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1qAUvitHuHIq5D7LLDn4kJYVFOl7VgCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

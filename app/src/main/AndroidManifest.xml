@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/burger_icon"
+        android:label="OrderEats"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrderEats"
+        tools:targetApi="31">
+        <activity
+            android:name=".Profile"
+            android:exported="false"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/Theme.OrderEats" />
+        <activity
+            android:name=".Support"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".ChefForgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Chefsendotp"
+            android:exported="false" />
+        <activity
+            android:name=".OTP_verification"
+            android:exported="false" />
+        <activity
+            android:name=".LoginWithPhone"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".LoginWithEmail"
+            android:exported="false" />
+        <activity
+            android:name=".UserResistration"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseOne"
+            android:exported="false" />
+        <activity
+            android:name=".registration"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CartListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShowDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".IntroActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_SHSnUK0k6K1qCK"/>
+    </application>
+
+</manifest>

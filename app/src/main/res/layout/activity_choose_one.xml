@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".ChooseOne">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="270dp"
+        android:layout_height="360dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginRight="4dp"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
+            android:text="Find best Food around you or offer your own !"
+            android:textAlignment="gravity"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/chef"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:background="#FF5722"
+            android:gravity="center"
+            android:text="CONNECT AS CHEF"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/customer"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:background="#FF5722"
+            android:gravity="center"
+            android:text="CONNECT AS CUSTOMER"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_gravity="center"
+            tools:layout_marginTop="30dp" />
+
+        <TextView
+            android:id="@+id/delivery"
+            android:layout_width="200dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:background="#FF5722"
+            android:gravity="center"
+            android:text="CONNECT AS DELIVERY BOY"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_gravity="center"
+            tools:layout_marginTop="30dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
